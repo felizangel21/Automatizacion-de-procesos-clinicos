@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Pacientes - Clínica Médica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, section, footer {
+            margin-bottom: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e3e3e3;
+        }
+        form input, form button {
+            padding: 8px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sistema de Gestión de Pacientes para una Clínica Médica</h1>
+        <img src="https://via.placeholder.com/600x200?text=Gestión+de+Pacientes" alt="Gestión de Pacientes">
+        <p>Este sistema permite optimizar la gestión de citas médicas, llevar un control de historiales clínicos y automatizar la facturación en clínicas médicas.</p>
+    </header>
+
+    <section>
+        <h2>Citas Programadas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Fecha de Cita</th>
+                    <th>Doctor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana López</td>
+                    <td>2025-05-03</td>
+                    <td>Dr. Martínez</td>
+                </tr>
+                <tr>
+                    <td>Pedro Jiménez</td>
+                    <td>2025-05-04</td>
+                    <td>Dra. Gómez</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Agendar Nueva Cita</h2>
+        <form>
+            <label for="nombre">Nombre del Paciente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="fecha">Fecha de la Cita:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="doctor">Nombre del Doctor:</label>
+            <input type="text" id="doctor" name="doctor" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Clínica Salud Total. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
