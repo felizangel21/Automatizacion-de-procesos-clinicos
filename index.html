@@ -6,7 +6,7 @@
   <title>Gestión de Pacientes Clínica</title>
   <style>
     body {
-      background-color: rgb(255, 255, 255);
+      background-color: #f0f8ff; /* azul claro */
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -14,7 +14,7 @@
 
     h1 {
       text-align: center;
-      color: rgb(0, 0, 0);
+      color: #2c3e50; /* azul oscuro */
       font-size: 30px;
       margin-top: 50px;
     }
@@ -22,11 +22,12 @@
     img {
       width: 100%;
       height: auto;
+      border-bottom: 4px solid #3498db; /* borde azul vibrante */
     }
 
     p {
       text-align: center;
-      color: rgb(0, 0, 0);
+      color: #34495e; /* gris oscuro azulado */
       font-size: 20px;
       margin-top: 50px;
     }
@@ -35,14 +36,60 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 50px;
-      border: 1px solid rgb(0, 0, 0);
+      border: 2px solid #2980b9; /* azul fuerte */
     }
 
-    th,
-    td {
+    th {
+      background-color: #3498db; /* azul vibrante */
+      color: white;
       text-align: left;
       padding: 10px;
-      border: 1px solid rgb(0, 0, 0);
+    }
+
+    td {
+      background-color: #ecf0f1; /* gris claro */
+      color: #2c3e50;
+      text-align: left;
+      padding: 10px;
+      border: 1px solid #bdc3c7; /* gris neutro */
+    }
+
+    h2 {
+      color: #27ae60; /* verde */
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    form {
+      background-color: #ffffff;
+      border: 2px solid #2ecc71; /* verde claro */
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #2ecc71; /* verde claro */
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #27ae60; /* verde más oscuro */
     }
   </style>
 </head>
